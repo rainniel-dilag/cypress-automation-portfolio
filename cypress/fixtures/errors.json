@@ -5,5 +5,6 @@
   "passwordRequired": "Epic sadface: Password is required",
   "inventoryPageAccessDenied": "Epic sadface: You can only access '/inventory.html' when you are logged in.",
   "cartPageAccessDenied":"Epic sadface: You can only access '/cart.html' when you are logged in.",
-  "checkOutTwoAccessDenied":"Epic sadface: You can only access '/checkout-step-two.html' when you are logged in."
+  "checkOutTwoAccessDenied":"Epic sadface: You can only access '/checkout-step-two.html' when you are logged in.",
+  "checkOutCompleteAccessDenied":"Epic sadface: You can only access '/checkout-complete.html' when you are logged in."
 }

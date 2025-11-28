@@ -121,6 +121,11 @@ Cypress.Commands.add('loginAndVisitCheckOutOverviewPage', () => {
   cy.completeCheckOutForm()
 })
 
+Cypress.Commands.add('loginAndVisitCheckOutCompletePage', () => {
+  cy.loginAndVisitCheckOutOverviewPage()
+  cy.getDataTest('finish').click()
+})
+
 Cypress.Commands.add('fillCheckoutForm', ({ firstName, lastName, postalCode }) => {
   if (firstName !== undefined) cy.getDataTest('firstName').type(firstName)
   if (lastName !== undefined) cy.getDataTest('lastName').type(lastName)
